@@ -13,7 +13,7 @@
         </tr>
     
 <?php
-    $sql = "SELECT * FROM student3";
+    $sql = "SELECT * FROM minor_depart";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
@@ -21,15 +21,13 @@
     while($row = mysqli_fetch_assoc($result)) {
        ?>
        <tr>
-        <td><?php echo $row['student_id']?></td>
-        <td><?php echo $row['name']?></td>
-        <td><?php echo $row['group_id']?></td>
-        <td><?php echo $row['level_group']?></td>
+        <td><?php echo $row['minor_id']?></td>
+        <td><?php echo $row['minor_name']?></td>
+        <td><?php echo $row['depart_name']?></td>
        </tr>
        <?php
 
-        /*echo $row['student_id']. " - " . $row['name'];
-        echo  "<br>";*/
+
     }
     } else {
     echo "0 results";
