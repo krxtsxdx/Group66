@@ -2,17 +2,14 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link active" href="minor.php">Minor_Department</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="show_student3.php">student3</a>
+        <a class="nav-link" href="customer.php">customer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
+        <a class="nav-link" href="province.php">province</a>
+      </li> 
     </ul>
   </div>
 </nav>
