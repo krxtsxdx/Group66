@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="minor.php">Minor_Department</a>
+        <a class="nav-link" href="minor.php">Minor_Department</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="customer.php">customer</a>
