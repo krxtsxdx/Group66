@@ -4,13 +4,12 @@
 <?php include 'connect.php' ?>
 
 <div class="container mt-5">
-<h1>ข้อมูล student3</h1>
+<h1></h1>
     <table class = "table table-bordered" >
         <tr>
-            <th>รหัสนักเรียน</th>
-            <th>ชื่อ</th>
-            <th>กลุ่ม</th>
-            <th>ระดับชั้น</th>
+            <th>รหัสแผนก</th>
+            <th>ชื่อรอง</th>
+            <th>ชื่อแผนก</th>
         </tr>
     
 <?php
